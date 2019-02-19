@@ -1,0 +1,12 @@
+<p>
+    J'ai réalisé ce projet seul sur mon temps libre. Mon objectif était de comprendre l'implémentation de l'intelligence artificielle
+    dans <i>Unreal Engine 4</i> et de réaliser une version adaptée de la perception visuelle des agents de jeu à des jeux-vidéo de 
+    type infiltration.
+</p>
+<p>
+    En effet, l'implémentation de base n'était pas suffisante car elle n'utilisait qu'un <i>raycast</i> entre celui qui observe et sa cible pour déterminer la visibilité de cette dernière
+    depuis le point de vue du premier. J'ai donc choisi d'ajouter plusieurs <i>raycasts</i>, chacun visant un point précis de la cible.
+    Ainsi, chaque <i> raycast </i> réussi exprime une visibilité plus élevée de la cible. 
+    Les agents peuvent donc réagir différemment en fonction de la présence certaine ou incertaine d'un ennemi dans leur champ de vision et la visibilité d'un
+    ennemi peut être maintenant déterminée en fonction de la capacité visuelle de l'agent observant (modification du seuil de visibilité).
+</p>
