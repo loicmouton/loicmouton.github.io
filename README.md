@@ -1,2 +1,2 @@
 # Portfolio
-This is my portfolio.
+This is the jekyll project I use for my portfolio.
