@@ -1,2 +1,2 @@
 # Portfolio
-This is the jekyll project I use for my portfolio.
+You can see my portfolio [here https://loicmouton.github.io/].
