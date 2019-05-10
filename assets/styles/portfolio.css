@@ -10,3 +10,13 @@
   .navbar > .container .navbar-brand-centered,
   .navbar > .container-fluid .navbar-brand-centered {
     margin-left: -80px; } }
+.pf_nav_link {
+  color: #777777;
+  padding: 0 0.25em;
+  text-decoration: none; }
+
+.pf_nav_link:hover {
+  color: #ffffff; }
+
+.pf_chosen_language {
+  color: #ffffff; }
